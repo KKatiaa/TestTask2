@@ -1,0 +1,298 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Console', "Lucida Console", serif;
+}
+
+.blueTint {
+    background-color: rgb(111, 168, 225);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.whiteTint {
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    width: 80vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input, label {
+    display:block;
+}
+
+#nameValue{
+    width: 19rem;
+}
+
+.listDisplay {
+    display: block;
+    height: 10rem;
+    width: 19rem;
+    border:rgb(72, 72, 72) 1px solid;
+}
+
+
+h1, form {
+    padding: 2rem 0rem 0rem 1rem;
+}
+
+.toPlace {
+    margin-left: 32%;
+    position: absolute;
+    top:20%;
+    padding: 0.2rem;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(157, 157, 157));
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 3px;
+}
+
+.placeButtons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top:27%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 14%;
+    margin-left: 33%;
+}
+
+.placeButtons p {
+    font-size: xx-small;
+    color:red;
+}
+
+.button {
+    padding: 0.2rem;
+    margin-top: 10%;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(157, 157, 157));
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 3px;
+}
+/*------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 400px) {
+    .whiteTint {
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #nameValue{
+        width: 14rem;
+    }
+    
+    .listDisplay {
+        display: block;
+        height: 10rem;
+        width: 14rem;
+        border:rgb(72, 72, 72) 1px solid;
+    }
+    
+    .toPlace {
+        margin-left: 65%;
+        position: absolute;
+        top:16%;
+        padding: 0.2rem;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 111, 215));
+        border: 1px solid rgb(72, 72, 72);
+        border-radius: 3px;
+    }
+    
+    .button {
+        padding: 0.2rem;
+        margin-top: 10%;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 111, 215));
+        border: 1px solid rgb(72, 72, 72);
+        border-radius: 3px;
+    }
+    
+    .placeButtons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top:21%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 14%;
+        margin-left: 68%;
+    }
+  }
+
+  
+/*------------------------------------------------------------------------------------------------*/
+  @media screen and (min-width: 400px) {
+    .whiteTint {
+        background-color: rgb(255, 255, 255);
+        height: 100vh;
+        width: 100vw;
+    }
+
+    #nameValue{
+        width: 14rem;
+    }
+    
+    .listDisplay {
+        display: block;
+        height: 10rem;
+        width: 14rem;
+        border:rgb(72, 72, 72) 1px solid;
+    }
+    
+    .toPlace {
+        margin-left: 60%;
+        position: absolute;
+        top:12%;
+        padding: 0.2rem;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(215, 109, 109));
+        border: 1px solid rgb(72, 72, 72);
+        border-radius: 3px;
+    }
+    
+    .button {
+        padding: 0.2rem;
+        margin-top: 10%;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(215, 109, 109));
+        border: 1px solid rgb(72, 72, 72);
+        border-radius: 3px;
+    }
+    
+    .placeButtons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top:17%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 14%;
+        margin-left: 63%;
+    }
+  }
+
+  /*----------------------------------------------*/
+  @media screen and (min-width: 768px) {
+    
+.blueTint {
+    background-color: rgb(111, 168, 225);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.whiteTint {
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    width: 80vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    #nameValue{
+        width: 14rem;
+    }
+    
+    .listDisplay {
+        display: block;
+        height: 10rem;
+        width: 14rem;
+        border:rgb(72, 72, 72) 1px solid;
+    }
+    
+    .toPlace {
+        margin-left: 30%;
+        position: absolute;
+        top:8%;
+        padding: 0.2rem;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(34, 119, 0));
+        border: 1px solid rgb(72, 72, 72);
+        border-radius: 3px;
+    }
+    
+    .button {
+        padding: 0.2rem;
+        margin-top: 10%;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(34, 119, 0));
+        border: 1px solid rgb(72, 72, 72);
+        border-radius: 3px;
+    }
+    
+    .placeButtons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top:14%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 14%;
+        margin-left: 32%;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .blueTint {
+        background-color: rgb(111, 168, 225);
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+
+    .whiteTint {
+        background-color: rgb(255, 255, 255);
+        height: 90vh;
+        width: 80vw;
+    }
+
+    #nameValue{
+        width: 19rem;
+    }
+    
+    .listDisplay {
+        display: block;
+        height: 10rem;
+        width: 19rem;
+        border:rgb(72, 72, 72) 1px solid;
+    }
+    
+    
+.toPlace {
+    margin-left: 39%;
+    position: absolute;
+    top:20%;
+    padding: 0.2rem;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(157, 157, 157));
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 3px;
+}
+
+.placeButtons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top:27%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 14%;
+    margin-left: 40%;
+}
+
+.button {
+    padding: 0.2rem;
+    margin-top: 10%;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(157, 157, 157));
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 3px;
+}
+  }

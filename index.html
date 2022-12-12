@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="js/task.js"></script>
+        <link rel="stylesheet" href="styles/style.css" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>TestTask</title>
+    </head>
+    <body>
+        <div class="blueTint">
+            <div class="whiteTint">
+                <div class="addElem">
+                    <h1>Test</h1>
+                    <form>
+                        <label for="nameValue">Name/Value Pair</label>
+                        <input type="text" class="nameInput" name="nameValue"  id="nameValue"/>
+                        <input type="submit" value="Add" class="nameInput toPlace" onClick="return globalList.addToListNewValue()"/>
+                    </form> 
+                </div>
+                <div class="modifyList">
+                    <form>
+                        <label>Name/Value Pair List</label>
+                        <div id="listOfValues" class="listDisplay">
+                        </div>
+                    </form>
+                    <div class="placeButtons">
+                        <button onClick="globalList.sortByName()" class="button">Sort by name</button>
+                        <button onClick="globalList.sortByValue()" class="button">Sort by value</button>
+                        <button onClick="globalList.deleteFromList()" class="button">Delete</button>
+                        <p>*Delete the selected item</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
